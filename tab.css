@@ -1,45 +1,43 @@
 *{
     text-decoration: none;
 }
-.box{
+.tab-1{
     width: 500px;
     height: 400px;
     background: palevioletred;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
-
 }
-.title{
+.tab-title{
     height: 100px;
     background: palegreen;
     display: flex;
-
 }
-.title .title_son{
+.tab-title .tabt{
     text-align: center;
     font-size: 30px;
     line-height: 100px;
     flex-grow: 1;
 }
-.title .title_son:first-child{
+.tab-title .tabt:first-child{
     background: magenta;
 }
-.title .title_son:nth-child(2){
+.tab-title .tabt:nth-child(2){
     background: #40ff56;
 }
-.title .title_son:nth-child(3){
+.tab-title .tabt:nth-child(3){
     background: #4ecda4;
 }
-.title .title_son:last-child{
+.tab-title .tabt:last-child{
     background: #fcff69;
 }
-.con{
+.tab-con{
     background: palegoldenrod;
     flex-grow: 1;
     position: relative;
 }
-.con .con_son{
+.tab-con .tabc{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -49,15 +47,16 @@
     line-height: 300px;
     font-size: 60px;
 }
-.con .con_son:nth-child(1){
+.tab-con .tabc:nth-child(1){
     background: magenta;
+    z-index: 10;
 }
-.con .con_son:nth-child(2){
+.tab-con .tabc:nth-child(2){
     background: #40ff56;
 }
-.con .con_son:nth-child(3){
+.tab-con .tabc:nth-child(3){
     background: #4ecda4;
 }
-.con .con_son:nth-child(4){
+.tab-con .tabc:nth-child(4){
     background: #fcff69;
 }
